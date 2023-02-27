@@ -5,38 +5,49 @@ using UnityEngine.UI;
 
 public class GraphPuzzle : MonoBehaviour
 {
-    [HideInInspector] public GameObject[] crossroads;
+    private GameObject[] crossroads;
 
-    [SerializeField] GameObject player;
+    [SerializeField] 
+    GameObject player;
 
     [Header("Scarabs Sprite")]
-    [SerializeField] private Sprite goldenScarab;
-    [SerializeField] private Sprite silverScarab;
-    [SerializeField] private Sprite stoneScarab;
+    [SerializeField] 
+    private Sprite goldenScarab;
+    [SerializeField] 
+    private Sprite silverScarab;
+    [SerializeField] 
+    private Sprite stoneScarab;
 
     [Header("Graphic effects")]
-    [SerializeField] private LineManager lineManagerScript;
-    [SerializeField] private Text winnerText;
-    [SerializeField] private ParticleSystem scarabTrail;
-    [SerializeField] private GameObject scarabTrailContainer;
+    [SerializeField] 
+    private LineManager lineManagerScript;
+    [SerializeField] 
+    private Text winnerText;
+    [SerializeField] 
+    private ParticleSystem scarabTrail;
+    [SerializeField] 
+    private GameObject scarabTrailContainer;
 
     [Header("Sound effects")]
-    [SerializeField] private AudioClip gongSound;
-    [SerializeField] private AudioClip resetSound;
-    [SerializeField] private AudioClip clickSound;
+    [SerializeField] 
+    private AudioClip gongSound;
+    [SerializeField] 
+    private AudioClip resetSound;
+    [SerializeField] 
+    private AudioClip clickSound;
+    [SerializeField]
+    private AudioSource audioSource;
 
     private GameObject prevNode;
-    private AudioSource graphSound;
     private ParticleSystem particle;
     private Scarab currentScarab;
 
-    void Awake()
+    private void Awake()
     {
         crossroads = new GameObject[transform.childCount];
-        graphSound = GetComponent<AudioSource>();
     }
 
-    void Start()
+    private void Start()
     {
         winnerText.enabled = false;
         for (int i = 0; i < transform.childCount; i++)
@@ -46,21 +57,9 @@ public class GraphPuzzle : MonoBehaviour
         }
     }
 
-    private void DisableAllNodesColliders()
-    {
-        Collider scarabCollider;
-        for (int i = 0; i < transform.childCount; i++)
-        {
-            scarabCollider = crossroads[i].GetComponentInChildren<Collider>();
-
-            if (scarabCollider.enabled == true)
-                scarabCollider.enabled = false;
-        }
-    }
-
     public void ScarabIsChosen(GameObject scarab)
     {
-        graphSound.PlayOneShot(clickSound, 0.2f);
+        audioSource.PlayOneShot(clickSound, 0.2f);
 
         currentScarab = scarab.GetComponent<Scarab>();
 
@@ -97,6 +96,18 @@ public class GraphPuzzle : MonoBehaviour
         prevNode = scarab;
     }
 
+    private void DisableAllNodesColliders()
+    {
+        Collider scarabCollider;
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            scarabCollider = crossroads[i].GetComponentInChildren<Collider>();
+
+            if (scarabCollider.enabled == true)
+                scarabCollider.enabled = false;
+        }
+    }
+
     private void WinOrLose()
     {
         for (int i = 0; i < transform.childCount; i++)
@@ -110,9 +121,9 @@ public class GraphPuzzle : MonoBehaviour
         }
         StartCoroutine(Win());
     }
-    IEnumerator Win()
+    private IEnumerator Win()
     {
-        graphSound.PlayOneShot(gongSound, 0.5f);
+        audioSource.PlayOneShot(gongSound, 0.5f);
         winnerText.enabled = true;
         winnerText.text = "Congratulation! You won!";
 
@@ -124,13 +135,13 @@ public class GraphPuzzle : MonoBehaviour
         winnerText.enabled = false;
     }
 
-    IEnumerator Lose()
+    private IEnumerator Lose()
     {
         yield return new WaitForSeconds(1f);
         ResetGraph();
     }
 
-    void WriteConnection(GameObject scarab)
+    private void WriteConnection(GameObject scarab)
     {
         lineManagerScript.AddPoint(scarab.transform);
         
@@ -153,7 +164,7 @@ public class GraphPuzzle : MonoBehaviour
 
         }
         lineManagerScript.ResetAllPoints();
-        graphSound.PlayOneShot(resetSound, 1f);
+        audioSource.PlayOneShot(resetSound, 1f);
         Destroy(particle.transform.root.gameObject);
         prevNode = null;
     }
