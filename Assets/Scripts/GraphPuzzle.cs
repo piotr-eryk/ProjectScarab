@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class GraphPuzzle : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class GraphPuzzle : MonoBehaviour
 
     [SerializeField] 
     GameObject player;
+    [SerializeField]
+    GameObject scarabParticlePrefab;
 
     [Header("Scarabs Sprite")]
     [SerializeField] 
@@ -39,8 +43,9 @@ public class GraphPuzzle : MonoBehaviour
     private AudioSource audioSource;
 
     private GameObject prevNode;
-    private ParticleSystem particle;
     private Scarab currentScarab;
+    private ObjectPool<GameObject> scarabParticlePool;
+    private GameObject particlePrefab;
 
     private void Awake()
     {
@@ -63,7 +68,7 @@ public class GraphPuzzle : MonoBehaviour
 
         currentScarab = scarab.GetComponent<Scarab>();
 
-        if (prevNode) // If prevNode exist so if player chose second node
+        if (prevNode)
         {
             Scarab prevScarab = prevNode.GetComponent<Scarab>();
             currentScarab.RemoveNeightbour(prevNode);
@@ -71,10 +76,19 @@ public class GraphPuzzle : MonoBehaviour
             prevScarab.ChangeScarab(silverScarab);
             prevScarab.Explode(Color.blue);
         }
-        else //do this only with first chosen scarab
+        else
         {
-            particle = Instantiate(scarabTrailContainer, scarab.transform.position, Quaternion.identity).GetComponentInChildren<ParticleSystem>();
-            particle.Play();
+            scarabParticlePool = new ObjectPool<GameObject>(createFunc: () => Instantiate(scarabParticlePrefab), 
+                actionOnGet: (obj) => obj.SetActive(true), actionOnRelease: (obj) => obj.SetActive(false), 
+                actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
+
+            particlePrefab = scarabParticlePool.Get();
+            if (particlePrefab != null)
+            {
+                particlePrefab.transform.position = scarab.transform.position;
+                particlePrefab.SetActive(true);
+            }
+            particlePrefab.GetComponent<ParticleSystem>().Play();
         }
 
         currentScarab.ChangeScarab(goldenScarab, Color.yellow);
@@ -128,10 +142,10 @@ public class GraphPuzzle : MonoBehaviour
         winnerText.text = "Congratulation! You won!";
 
         yield return new WaitForSeconds(0.1f);
-        particle.transform.position = player.transform.position;
+        particlePrefab.transform.position = player.transform.position;
 
         yield return new WaitForSeconds(2f);
-        Destroy(particle.transform.root.gameObject);
+        scarabParticlePool.Release(particlePrefab);
         winnerText.enabled = false;
     }
 
@@ -144,8 +158,8 @@ public class GraphPuzzle : MonoBehaviour
     private void WriteConnection(GameObject scarab)
     {
         lineManagerScript.AddPoint(scarab.transform);
-        
-        particle.transform.position = scarab.transform.position;
+
+        particlePrefab.transform.position = scarab.transform.position;
     }
 
     private void ResetGraph()
@@ -165,7 +179,7 @@ public class GraphPuzzle : MonoBehaviour
         }
         lineManagerScript.ResetAllPoints();
         audioSource.PlayOneShot(resetSound, 1f);
-        Destroy(particle.transform.root.gameObject);
+        scarabParticlePool.Release(particlePrefab);
         prevNode = null;
     }
 }
