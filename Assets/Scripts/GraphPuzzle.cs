@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
 using UnityEngine.UI;
-using static UnityEngine.GraphicsBuffer;
 
 public class GraphPuzzle : MonoBehaviour
 {
@@ -45,7 +44,6 @@ public class GraphPuzzle : MonoBehaviour
     private GameObject prevNode;
     private Scarab currentScarab;
     private ObjectPool<GameObject> scarabParticlePool;
-    private GameObject particlePrefab;
 
     private void Awake()
     {
@@ -82,27 +80,27 @@ public class GraphPuzzle : MonoBehaviour
                 actionOnGet: (obj) => obj.SetActive(true), actionOnRelease: (obj) => obj.SetActive(false), 
                 actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
 
-            particlePrefab = scarabParticlePool.Get();
-            if (particlePrefab != null)
+            scarabParticlePrefab = scarabParticlePool.Get();
+            if (scarabParticlePrefab != null)
             {
-                particlePrefab.transform.position = scarab.transform.position;
-                particlePrefab.SetActive(true);
+                scarabParticlePrefab.transform.position = scarab.transform.position;
+                scarabParticlePrefab.SetActive(true);
             }
-            particlePrefab.GetComponent<ParticleSystem>().Play();
+            scarabParticlePrefab.GetComponent<ParticleSystem>().Play();
         }
 
         currentScarab.ChangeScarab(goldenScarab, Color.yellow);
         WriteConnection(scarab);
         DisableAllNodesColliders();
 
-        if (currentScarab.currentPossibleNeightbours.Count == 0)
+        if (currentScarab.CurrentPossibleNeightbours.Count == 0)
         {
             currentScarab.ChangeScarab(silverScarab);
             WinOrLose();
         }
         else
         {
-            foreach (GameObject scarabNode in currentScarab.currentPossibleNeightbours)
+            foreach (GameObject scarabNode in currentScarab.CurrentPossibleNeightbours)
             {
                 scarabNode.GetComponent<Collider>().enabled = true;
             }
@@ -127,7 +125,7 @@ public class GraphPuzzle : MonoBehaviour
         for (int i = 0; i < transform.childCount; i++)
         {
             currentScarab = crossroads[i].GetComponent<Scarab>();
-            if (currentScarab.currentPossibleNeightbours.Count != 0)
+            if (currentScarab.CurrentPossibleNeightbours.Count != 0)
             {
                 StartCoroutine(Lose());
                 return;
@@ -142,10 +140,10 @@ public class GraphPuzzle : MonoBehaviour
         winnerText.text = "Congratulation! You won!";
 
         yield return new WaitForSeconds(0.1f);
-        particlePrefab.transform.position = player.transform.position;
+        scarabParticlePrefab.transform.position = player.transform.position;
 
         yield return new WaitForSeconds(2f);
-        scarabParticlePool.Release(particlePrefab);
+        scarabParticlePool.Release(scarabParticlePrefab);
         winnerText.enabled = false;
     }
 
@@ -159,7 +157,7 @@ public class GraphPuzzle : MonoBehaviour
     {
         lineManagerScript.AddPoint(scarab.transform);
 
-        particlePrefab.transform.position = scarab.transform.position;
+        scarabParticlePrefab.transform.position = scarab.transform.position;
     }
 
     private void ResetGraph()
@@ -168,18 +166,18 @@ public class GraphPuzzle : MonoBehaviour
         {
             currentScarab = crossroads[i].GetComponent<Scarab>();
 
-            if (currentScarab.currentPossibleNeightbours.Count != currentScarab.possibleNeightbours.Count)
+            if (currentScarab.CurrentPossibleNeightbours.Count != currentScarab.PossibleNeightbours.Count)
             {
                 currentScarab.Explode(Color.magenta);
             }
             currentScarab.ChangeScarab(stoneScarab);
             currentScarab.CopyPossibleNeightbourToCurrentNeightbour();
             crossroads[i].GetComponent<Collider>().enabled = true;
-
         }
+
         lineManagerScript.ResetAllPoints();
         audioSource.PlayOneShot(resetSound, 1f);
-        scarabParticlePool.Release(particlePrefab);
+        scarabParticlePool.Release(scarabParticlePrefab);
         prevNode = null;
     }
 }

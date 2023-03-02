@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class ChooseScarab : MonoBehaviour
 {
-    [SerializeField] LayerMask scarabLayer;
-    [SerializeField] float activeDistance = 10f;
+    [SerializeField] 
+    LayerMask scarabLayer;
+    [SerializeField] 
+    float activeDistance = 10f;
+
     private Transform cam;
     void Start()
     {

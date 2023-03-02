@@ -4,41 +4,39 @@ using UnityEngine;
 
 public class LineManager : MonoBehaviour
 {
-    private LineRenderer lr;
-    private List<Transform> points;
+    [SerializeField]
+    private LineRenderer lineRenderer;
+    [SerializeField]
+    private LayerMask lineRendererLayer;
 
-    private string lineRendererLayer;
+    private List<Transform> points = new();
 
     private void Awake()
     {
-        lineRendererLayer = "LineRenderer";
-
-        lr = GetComponent<LineRenderer>();
-        lr.positionCount = 0;
-
-        points = new List<Transform>();
+        lineRenderer.positionCount = 0;
     }
+
     public void AddPoint(Transform point)
     {
-        lr.positionCount++;
+        lineRenderer.positionCount++;
         points.Add(point);
     }
 
-
     void LateUpdate()
     {
-        if(points.Count>=2)
+        if (points.Count >= 2)
         {
-            for(int i=0; i<points.Count; i++)
+            for (int i = 0; i < points.Count; i++)
             {
-                lr.SetPosition(i, points[i].position);
-                lr.sortingLayerName = lineRendererLayer;
+                lineRenderer.SetPosition(i, points[i].position);
+                lineRenderer.sortingLayerName = lineRendererLayer.ToString();
             }
         }
     }
+
     public void ResetAllPoints()
     {
-        lr.positionCount = 0;
+        lineRenderer.positionCount = 0;
         points.Clear();
     }
 }
