@@ -20,6 +20,8 @@ public class Scarab : MonoBehaviour
     public List<GameObject> CurrentPossibleNeightbours => currentPossibleNeightbours;
     public List<GameObject> PossibleNeightbours => possibleNeightbours;
 
+    public SpriteRenderer SpriteRenderer => spriteRenderer;
+
     private void Awake()
     {
         CopyPossibleNeightbourToCurrentNeightbour();

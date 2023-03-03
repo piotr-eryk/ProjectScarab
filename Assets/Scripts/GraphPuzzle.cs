@@ -6,12 +6,12 @@ using UnityEngine.UI;
 
 public class GraphPuzzle : MonoBehaviour
 {
-    private GameObject[] crossroads;
-
     [SerializeField] 
     GameObject player;
     [SerializeField]
     GameObject scarabParticlePrefab;
+    [SerializeField]
+    List<Scarab> scarabs;
 
     [Header("Scarabs Sprite")]
     [SerializeField] 
@@ -41,36 +41,30 @@ public class GraphPuzzle : MonoBehaviour
     [SerializeField]
     private AudioSource audioSource;
 
-    private GameObject prevNode;
+    private Scarab prevNode;
     private Scarab currentScarab;
     private ObjectPool<GameObject> scarabParticlePool;
-
-    private void Awake()
-    {
-        crossroads = new GameObject[transform.childCount];
-    }
 
     private void Start()
     {
         winnerText.enabled = false;
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < scarabs.Count; i++)
         {
-            crossroads[i] = transform.GetChild(i).gameObject;
-            crossroads[i].GetComponent<SpriteRenderer>().sprite = stoneScarab;
+            scarabs[i].SpriteRenderer.sprite = stoneScarab;
         }
     }
 
-    public void ScarabIsChosen(GameObject scarab)
+    public void ScarabIsChosen(Scarab scarab)
     {
         audioSource.PlayOneShot(clickSound, 0.2f);
 
-        currentScarab = scarab.GetComponent<Scarab>();
+        currentScarab = scarab;
 
         if (prevNode)
         {
-            Scarab prevScarab = prevNode.GetComponent<Scarab>();
-            currentScarab.RemoveNeightbour(prevNode);
-            prevScarab.RemoveNeightbour(scarab);
+            Scarab prevScarab = prevNode;
+            currentScarab.RemoveNeightbour(prevNode.gameObject);
+            prevScarab.RemoveNeightbour(scarab.gameObject);
             prevScarab.ChangeScarab(silverScarab);
             prevScarab.Explode(Color.blue);
         }
@@ -90,7 +84,7 @@ public class GraphPuzzle : MonoBehaviour
         }
 
         currentScarab.ChangeScarab(goldenScarab, Color.yellow);
-        WriteConnection(scarab);
+        WriteConnection(scarab.gameObject);
         DisableAllNodesColliders();
 
         if (currentScarab.CurrentPossibleNeightbours.Count == 0)
@@ -110,13 +104,14 @@ public class GraphPuzzle : MonoBehaviour
 
     private void DisableAllNodesColliders()
     {
-        Collider scarabCollider;
-        for (int i = 0; i < transform.childCount; i++)
+        for (int i = 0; i < scarabs.Count; i++)
         {
-            scarabCollider = crossroads[i].GetComponentInChildren<Collider>();
+            Collider scarabCollider = scarabs[i].GetComponent<Collider>();
 
-            if (scarabCollider.enabled == true)
+            if (scarabCollider)
+            {
                 scarabCollider.enabled = false;
+            }
         }
     }
 
@@ -124,7 +119,7 @@ public class GraphPuzzle : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            currentScarab = crossroads[i].GetComponent<Scarab>();
+            currentScarab = scarabs[i];
             if (currentScarab.CurrentPossibleNeightbours.Count != 0)
             {
                 StartCoroutine(Lose());
@@ -164,7 +159,7 @@ public class GraphPuzzle : MonoBehaviour
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            currentScarab = crossroads[i].GetComponent<Scarab>();
+            currentScarab = scarabs[i];
 
             if (currentScarab.CurrentPossibleNeightbours.Count != currentScarab.PossibleNeightbours.Count)
             {
@@ -172,7 +167,7 @@ public class GraphPuzzle : MonoBehaviour
             }
             currentScarab.ChangeScarab(stoneScarab);
             currentScarab.CopyPossibleNeightbourToCurrentNeightbour();
-            crossroads[i].GetComponent<Collider>().enabled = true;
+            scarabs[i].gameObject.GetComponent<Collider>().enabled = true;
         }
 
         lineManagerScript.ResetAllPoints();

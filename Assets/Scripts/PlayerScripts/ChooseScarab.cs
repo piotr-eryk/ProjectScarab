@@ -20,7 +20,7 @@ public class ChooseScarab : MonoBehaviour
         if (Physics.Raycast(cam.position, cam.forward, out RaycastHit hit, activeDistance, scarabLayer))
         {
             if (hit.collider.GetComponent<Scarab>())
-                hit.collider.GetComponentInParent<GraphPuzzle>().ScarabIsChosen(hit.collider.gameObject);
+                hit.collider.GetComponentInParent<GraphPuzzle>().ScarabIsChosen(hit.collider.GetComponent<Scarab>());
         }
     }
 }

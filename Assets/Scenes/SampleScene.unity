@@ -174,7 +174,9 @@ MonoBehaviour:
   - {fileID: 1770802805}
   - {fileID: 623659241}
   - {fileID: 661474661}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1941366
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -237,6 +239,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.7, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 14
@@ -288,7 +291,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1157334754}
   - {fileID: 887574953}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &49704598
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -351,6 +356,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 4, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 4
@@ -406,7 +412,9 @@ MonoBehaviour:
   - {fileID: 1669749294}
   - {fileID: 1493535422}
   - {fileID: 696252804}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &52988166
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -469,6 +477,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.802, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 13
@@ -520,7 +529,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1085210089}
   - {fileID: 1941363}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &57727623
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -583,6 +594,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -0.6599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 15
@@ -634,7 +646,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1509953751}
   - {fileID: 88962085}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &58154538
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -697,6 +711,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.164, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 12
@@ -730,6 +745,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 1.4500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 24
@@ -762,7 +778,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1846697724}
   - {fileID: 262806111}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &68243545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -865,7 +883,9 @@ MonoBehaviour:
   - {fileID: 1591978262}
   - {fileID: 2086776169}
   - {fileID: 792936207}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &71396260
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -928,6 +948,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.565, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 5
@@ -959,6 +980,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 3, z: -4.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 185639612}
   - {fileID: 822164468}
@@ -1014,7 +1036,7 @@ SpriteRenderer:
   m_Size: {x: 9.64, y: 6.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &88962085
@@ -1064,7 +1086,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 58154535}
   - {fileID: 1509953751}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &88962088
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1127,6 +1151,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.775, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 23
@@ -1180,7 +1205,9 @@ MonoBehaviour:
   - {fileID: 385164733}
   - {fileID: 1085210089}
   - {fileID: 747800026}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &123936300
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1243,6 +1270,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.78, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 10
@@ -1276,6 +1304,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -0.6599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 15
@@ -1347,7 +1376,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1746238917}
   - {fileID: 2071860741}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &173120196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1391,6 +1422,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95413457a42e7b34bafeb3c5d48c248a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 0}
+  lineRendererLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!120 &185639611
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1500,6 +1535,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 83446459}
   m_RootOrder: 0
@@ -1533,6 +1569,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.897, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 1
@@ -1604,7 +1641,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 900717256}
   - {fileID: 999936568}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &211535851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1669,7 +1708,9 @@ MonoBehaviour:
   - {fileID: 953810225}
   - {fileID: 1509953751}
   - {fileID: 68243541}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &262806114
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1732,6 +1773,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.7, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 14
@@ -1787,7 +1829,9 @@ MonoBehaviour:
   - {fileID: 1679285422}
   - {fileID: 2079101624}
   - {fileID: 1669749294}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &315228280
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1850,6 +1894,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.7, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 14
@@ -1883,6 +1928,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.978, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 16
@@ -1956,7 +2002,9 @@ MonoBehaviour:
   - {fileID: 988251138}
   - {fileID: 1146838681}
   - {fileID: 1302447772}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &365129015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2060,6 +2108,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1922362625}
   - {fileID: 2041041246}
@@ -2122,7 +2171,9 @@ MonoBehaviour:
   - {fileID: 1085210089}
   - {fileID: 921145510}
   - {fileID: 698222080}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &385164736
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2185,6 +2236,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.115, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 6
@@ -2238,7 +2290,9 @@ MonoBehaviour:
   - {fileID: 1488553727}
   - {fileID: 1941363}
   - {fileID: 623659241}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &391161595
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2301,6 +2355,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.696, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 17
@@ -2354,7 +2409,9 @@ MonoBehaviour:
   - {fileID: 1008995722}
   - {fileID: 262806111}
   - {fileID: 1509953751}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &429657338
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2417,6 +2474,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.696, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 17
@@ -2450,6 +2508,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.78, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 10
@@ -2523,7 +2582,9 @@ MonoBehaviour:
   - {fileID: 999936568}
   - {fileID: 1746238917}
   - {fileID: 1531323819}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &439251821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2547,6 +2608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 499868429}
   - component: {fileID: 499868428}
+  - component: {fileID: 499868430}
   m_Layer: 0
   m_Name: Point Light (1)
   m_TagString: Untagged
@@ -2626,10 +2688,31 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.186, y: 5.014, z: -4.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499868430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499868427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &508249416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,7 +2764,9 @@ MonoBehaviour:
   - {fileID: 52988163}
   - {fileID: 1067590195}
   - {fileID: 1109457260}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &508249419
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2744,6 +2829,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.115, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 6
@@ -2822,6 +2908,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.88, z: 0}
   m_LocalScale: {x: 1, y: 1.8, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1687258585}
   m_Father: {fileID: 1871907974}
@@ -2839,8 +2926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2597837f381ec9f4cb1c8b7fad61dd48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivityX: 0.5
-  sensitivityY: 0.5
+  sensitivity: 0.35
   playerCamera: {fileID: 1687258585}
   xClamp: 85
 --- !u!114 &584651850
@@ -2924,7 +3010,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1753207644}
   - {fileID: 1087137747}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &612448179
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2987,6 +3075,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 4, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 4
@@ -3040,7 +3129,9 @@ MonoBehaviour:
   - {fileID: 1846697724}
   - {fileID: 1647346251}
   - {fileID: 1129221286}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &615632115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3103,6 +3194,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.075, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 18
@@ -3158,7 +3250,9 @@ MonoBehaviour:
   - {fileID: 1298812866}
   - {fileID: 1994154027}
   - {fileID: 1618075417}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &623659244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3221,6 +3315,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.389, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 22
@@ -3254,6 +3349,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 1.4500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 24
@@ -3286,7 +3382,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1085210089}
   - {fileID: 1941363}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &661474665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3388,7 +3486,9 @@ MonoBehaviour:
   - {fileID: 52988163}
   - {fileID: 1084575458}
   - {fileID: 1493535422}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &696252807
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3451,6 +3551,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.512, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 19
@@ -3502,7 +3603,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 385164733}
   - {fileID: 2041472228}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &698222083
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3565,6 +3668,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.043, y: 0, z: -1.954}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 7
@@ -3616,7 +3720,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 71396257}
   - {fileID: 2086776169}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &711639664
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3679,6 +3785,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.897, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 1
@@ -3712,6 +3819,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 1.4500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 24
@@ -3783,7 +3891,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1746238917}
   - {fileID: 2071860741}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &724445011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3846,7 +3956,9 @@ MonoBehaviour:
   - {fileID: 1085210089}
   - {fileID: 1391877204}
   - {fileID: 1772368987}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &747800029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3909,6 +4021,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.512, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 19
@@ -3942,6 +4055,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 6.04, z: 0}
   m_LocalScale: {x: 9.64, y: 0.1, z: 9.64}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 10
@@ -4061,6 +4175,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.964, y: 1, z: 0.6040001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 915527488}
   - {fileID: 211535848}
@@ -4102,8 +4217,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce99285800179141af4aab959f6b34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crossroads: []
   player: {fileID: 584651844}
+  scarabParticlePrefab: {fileID: 0}
+  scarabs:
+  - {fileID: 915527490}
+  - {fileID: 211535850}
+  - {fileID: 1357478859}
+  - {fileID: 1297849567}
+  - {fileID: 1996455062}
+  - {fileID: 900717259}
+  - {fileID: 999936571}
+  - {fileID: 920894291}
+  - {fileID: 810852713}
+  - {fileID: 1051540526}
+  - {fileID: 439251820}
+  - {fileID: 1338256592}
+  - {fileID: 1694597132}
+  - {fileID: 1746238920}
+  - {fileID: 2071860744}
+  - {fileID: 173120195}
+  - {fileID: 365129014}
+  - {fileID: 2003989133}
+  - {fileID: 1284275997}
+  - {fileID: 1531323822}
+  - {fileID: 988251141}
+  - {fileID: 1146838684}
+  - {fileID: 1302447775}
+  - {fileID: 1145803600}
+  - {fileID: 724445010}
   goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
@@ -4114,6 +4255,7 @@ MonoBehaviour:
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
   resetSound: {fileID: 8300000, guid: ed2c9df4b79a0334da44621ae014fe84, type: 3}
   clickSound: {fileID: 8300000, guid: de00e38f24d836945a294afa4e58c61f, type: 3}
+  audioSource: {fileID: 779525802}
 --- !u!82 &779525802
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4257,7 +4399,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 615632112}
   - {fileID: 1647346251}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &784147211
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4320,6 +4464,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.803, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 11
@@ -4373,7 +4518,9 @@ MonoBehaviour:
   - {fileID: 2086776169}
   - {fileID: 1846697724}
   - {fileID: 1647346251}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &792936210
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4436,6 +4583,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.78, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 10
@@ -4469,6 +4617,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.03, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 8
@@ -4544,7 +4693,9 @@ MonoBehaviour:
   - {fileID: 1051540523}
   - {fileID: 2003989130}
   - {fileID: 2071860741}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &810852714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4588,6 +4739,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.964, y: 1, z: 0.6040001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1753207648}
   - {fileID: 1200535478}
@@ -4725,8 +4877,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce99285800179141af4aab959f6b34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crossroads: []
   player: {fileID: 584651844}
+  scarabParticlePrefab: {fileID: 0}
+  scarabs: []
   goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
@@ -4737,6 +4890,7 @@ MonoBehaviour:
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
   resetSound: {fileID: 8300000, guid: ed2c9df4b79a0334da44621ae014fe84, type: 3}
   clickSound: {fileID: 8300000, guid: de00e38f24d836945a294afa4e58c61f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!64 &822164471
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4806,7 +4960,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1254922022}
   - {fileID: 2079101624}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &822449490
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4869,6 +5025,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.775, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 23
@@ -4922,7 +5079,9 @@ MonoBehaviour:
   - {fileID: 508249416}
   - {fileID: 52988163}
   - {fileID: 696252804}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &834455980
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4985,6 +5144,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.78, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 10
@@ -5036,7 +5196,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 2086776169}
   - {fileID: 976721686}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &839113792
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5099,6 +5261,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.043, y: 0, z: -1.954}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 7
@@ -5153,7 +5316,9 @@ MonoBehaviour:
   - {fileID: 49704595}
   - {fileID: 508249416}
   - {fileID: 834455977}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &887574956
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5216,6 +5381,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.565, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 5
@@ -5249,6 +5415,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.565, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 5
@@ -5323,7 +5490,9 @@ MonoBehaviour:
   - {fileID: 1996455059}
   - {fileID: 999936568}
   - {fileID: 439251817}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &900717260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5366,6 +5535,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.32, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 0
@@ -5437,7 +5607,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1996455059}
   - {fileID: 900717256}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &915527491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5480,6 +5652,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.043, y: 0, z: -1.954}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 7
@@ -5551,7 +5724,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 999936568}
   - {fileID: 810852710}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &920894292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5612,7 +5787,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 385164733}
   - {fileID: 2041472228}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &921145513
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5675,6 +5852,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -3.331}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 2
@@ -5689,6 +5867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 931803732}
   - component: {fileID: 931803731}
+  - component: {fileID: 931803733}
   m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
@@ -5768,10 +5947,31 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4.186, y: 5.014, z: 4.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &931803733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931803730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &953810225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5821,7 +6021,9 @@ MonoBehaviour:
   - {fileID: 1129221286}
   - {fileID: 1622992623}
   - {fileID: 1509953751}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &953810228
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5884,6 +6086,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.978, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 16
@@ -5939,7 +6142,9 @@ MonoBehaviour:
   - {fileID: 1008995722}
   - {fileID: 429657335}
   - {fileID: 262806111}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &976721689
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6002,6 +6207,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.03, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 8
@@ -6036,6 +6242,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.964, y: 1, z: 0.6040001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2094405552}
   - {fileID: 711639665}
@@ -6173,8 +6380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce99285800179141af4aab959f6b34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crossroads: []
   player: {fileID: 584651844}
+  scarabParticlePrefab: {fileID: 0}
+  scarabs: []
   goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
@@ -6185,6 +6393,7 @@ MonoBehaviour:
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
   resetSound: {fileID: 8300000, guid: ed2c9df4b79a0334da44621ae014fe84, type: 3}
   clickSound: {fileID: 8300000, guid: de00e38f24d836945a294afa4e58c61f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!64 &986474531
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6236,6 +6445,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 3.0800018}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 20
@@ -6307,7 +6517,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 365129011}
   - {fileID: 1284275994}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &988251142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6368,7 +6580,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1770802805}
   - {fileID: 1772368987}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &996839768
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6431,6 +6645,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 3.0800018}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 20
@@ -6464,6 +6679,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.115, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 6
@@ -6539,7 +6755,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1357478856}
   - {fileID: 920894288}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &999936572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6601,7 +6819,9 @@ MonoBehaviour:
   - {fileID: 976721686}
   - {fileID: 1223130640}
   - {fileID: 429657335}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1008995725
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6664,6 +6884,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.474, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 9
@@ -6697,6 +6918,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.474, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 9
@@ -6769,7 +6991,9 @@ MonoBehaviour:
   - {fileID: 810852710}
   - {fileID: 1297849564}
   - {fileID: 2003989130}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1051540527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6830,7 +7054,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 508249416}
   - {fileID: 1840974154}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1067590198
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6893,6 +7119,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -3.331}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 2
@@ -6944,7 +7171,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1493535422}
   - {fileID: 696252804}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1084575461
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7007,6 +7236,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.803, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 11
@@ -7062,7 +7292,9 @@ MonoBehaviour:
   - {fileID: 661474661}
   - {fileID: 1772368987}
   - {fileID: 747800026}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1085210092
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7125,6 +7357,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.802, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 13
@@ -7159,6 +7392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95413457a42e7b34bafeb3c5d48c248a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 1085429935}
+  lineRendererLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!120 &1085429935
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -7268,6 +7505,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1513477208}
   m_RootOrder: 0
@@ -7322,7 +7560,9 @@ MonoBehaviour:
   - {fileID: 612448176}
   - {fileID: 385164733}
   - {fileID: 123936297}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1087137750
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7385,6 +7625,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.565, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 5
@@ -7436,7 +7677,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 508249416}
   - {fileID: 1840974154}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1109457263
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7499,6 +7742,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.043, y: 0, z: -1.954}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 7
@@ -7550,7 +7794,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 953810225}
   - {fileID: 615632112}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1129221289
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7613,6 +7859,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 3.0800018}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 20
@@ -7664,7 +7911,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 52988163}
   - {fileID: 315228277}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1136269688
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7727,6 +7976,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -0.6599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 15
@@ -7760,6 +8010,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.775, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 23
@@ -7831,7 +8082,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1694597129}
   - {fileID: 1302447772}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1145803601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7874,6 +8127,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.716, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 21
@@ -7945,7 +8199,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 365129011}
   - {fileID: 1302447772}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1146838685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8006,7 +8262,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 49704595}
   - {fileID: 887574953}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1157334757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8069,6 +8327,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.32, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 0
@@ -8121,7 +8380,9 @@ MonoBehaviour:
   - {fileID: 1840974154}
   - {fileID: 2100846053}
   - {fileID: 1407615454}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1198535364
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8184,6 +8445,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.474, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 9
@@ -8235,7 +8497,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1087137747}
   - {fileID: 385164733}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1200535477
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8298,6 +8562,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.897, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 1
@@ -8349,7 +8614,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 976721686}
   - {fileID: 1008995722}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1223130643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8412,6 +8679,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.817, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 3
@@ -8463,7 +8731,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 2079101624}
   - {fileID: 822449487}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1254922025
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8526,6 +8796,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.164, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 12
@@ -8559,6 +8830,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.075, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 18
@@ -8632,7 +8904,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1531323819}
   - {fileID: 988251138}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1284275998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8675,6 +8949,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.817, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 3
@@ -8746,7 +9021,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 810852710}
   - {fileID: 1051540523}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1297849568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8807,7 +9084,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 623659241}
   - {fileID: 1618075417}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1298812869
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8870,6 +9149,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.164, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 12
@@ -8903,6 +9183,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.389, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 22
@@ -8978,7 +9259,9 @@ MonoBehaviour:
   - {fileID: 1694597129}
   - {fileID: 1146838681}
   - {fileID: 1145803597}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1302447776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9021,6 +9304,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.803, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 11
@@ -9092,7 +9376,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1284275994}
   - {fileID: 1531323819}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1338256593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9153,7 +9439,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 2041472228}
   - {fileID: 1488553727}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1344160455
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9216,6 +9504,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.817, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 3
@@ -9249,6 +9538,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -3.331}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 2
@@ -9320,7 +9610,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 999936568}
   - {fileID: 810852710}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1357478860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9364,6 +9656,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95413457a42e7b34bafeb3c5d48c248a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 0}
+  lineRendererLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!120 &1363693722
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9473,6 +9769,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1432272489}
   m_RootOrder: 0
@@ -9524,7 +9821,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1846697724}
   - {fileID: 262806111}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1381092578
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9587,6 +9886,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -0.6599999}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 15
@@ -9638,7 +9938,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1772368987}
   - {fileID: 747800026}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1391877207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9701,6 +10003,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.803, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 11
@@ -9752,7 +10055,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1679285422}
   - {fileID: 2079101624}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1403252257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9815,6 +10120,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.716, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 21
@@ -9868,7 +10174,9 @@ MonoBehaviour:
   - {fileID: 1198535361}
   - {fileID: 315228277}
   - {fileID: 2079101624}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1407615457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9931,6 +10239,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.696, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 17
@@ -9962,6 +10271,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -4.82, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1363693723}
   - {fileID: 986474528}
@@ -10017,7 +10327,7 @@ SpriteRenderer:
   m_Size: {x: 9.64, y: 6.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1488553727
@@ -10068,7 +10378,9 @@ MonoBehaviour:
   - {fileID: 2041472228}
   - {fileID: 1344160452}
   - {fileID: 391161592}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1488553730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10131,6 +10443,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.474, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 9
@@ -10184,7 +10497,9 @@ MonoBehaviour:
   - {fileID: 52988163}
   - {fileID: 696252804}
   - {fileID: 1801984103}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1493535425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10247,6 +10562,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.075, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 18
@@ -10302,7 +10618,9 @@ MonoBehaviour:
   - {fileID: 58154535}
   - {fileID: 1622992623}
   - {fileID: 88962085}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1509953754
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10365,6 +10683,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.389, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 22
@@ -10396,6 +10715,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 4.8299994}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1085429936}
   - {fileID: 779525799}
@@ -10451,7 +10771,7 @@ SpriteRenderer:
   m_Size: {x: 9.64, y: 6.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1531323819
@@ -10483,6 +10803,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.512, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 19
@@ -10556,7 +10877,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1338256589}
   - {fileID: 1284275994}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1531323823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10617,7 +10940,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 887574953}
   - {fileID: 508249416}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1534338617
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10680,6 +11005,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.897, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 1
@@ -10731,7 +11057,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 2094405548}
   - {fileID: 71396257}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1591978265
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10794,6 +11122,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 4, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 4
@@ -10845,7 +11174,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1298812866}
   - {fileID: 623659241}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1618075420
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10908,6 +11239,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.775, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 23
@@ -10922,6 +11254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1618282151}
   - component: {fileID: 1618282152}
+  - component: {fileID: 1618282153}
   m_Layer: 0
   m_Name: Point Light (3)
   m_TagString: Untagged
@@ -10939,6 +11272,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.83, y: 5.014, z: -4.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 3
@@ -11005,6 +11339,26 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &1618282153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618282150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1622992623
 GameObject:
   m_ObjectHideFlags: 0
@@ -11052,7 +11406,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 953810225}
   - {fileID: 1509953751}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1622992626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11115,6 +11471,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.716, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 21
@@ -11168,7 +11525,9 @@ MonoBehaviour:
   - {fileID: 1846697724}
   - {fileID: 784147208}
   - {fileID: 615632112}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1647346254
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11231,6 +11590,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 2.512, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 19
@@ -11265,6 +11625,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95413457a42e7b34bafeb3c5d48c248a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 0}
+  lineRendererLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!120 &1659832628
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11374,6 +11738,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734657795}
   m_RootOrder: 0
@@ -11407,6 +11772,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 1.4500011}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 24
@@ -11439,7 +11805,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 52988163}
   - {fileID: 315228277}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1669749298
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11541,7 +11909,9 @@ MonoBehaviour:
   - {fileID: 1801984103}
   - {fileID: 1403252254}
   - {fileID: 2079101624}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1679285425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11604,6 +11974,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.978, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 16
@@ -11688,6 +12059,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.818, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 584651848}
   m_RootOrder: 0
@@ -11714,6 +12086,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
   m_RenderPostProcessing: 1
   m_Antialiasing: 1
   m_AntialiasingQuality: 2
@@ -11753,6 +12126,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3.164, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 12
@@ -11824,7 +12198,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1302447772}
   - {fileID: 1145803597}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1694597133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11865,6 +12241,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 4.82, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1659832629}
   - {fileID: 2043832776}
@@ -11920,7 +12297,7 @@ SpriteRenderer:
   m_Size: {x: 9.64, y: 6.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1746238917
@@ -11952,6 +12329,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.802, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 13
@@ -12027,7 +12405,9 @@ MonoBehaviour:
   - {fileID: 724445007}
   - {fileID: 1284275994}
   - {fileID: 1531323819}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1746238921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12088,7 +12468,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 612448176}
   - {fileID: 1087137747}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1753207647
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12151,6 +12533,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.32, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 0
@@ -12204,7 +12587,9 @@ MonoBehaviour:
   - {fileID: 996839765}
   - {fileID: 1994154027}
   - {fileID: 623659241}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1770802808
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12267,6 +12652,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.978, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 16
@@ -12320,7 +12706,9 @@ MonoBehaviour:
   - {fileID: 1085210089}
   - {fileID: 747800026}
   - {fileID: 996839765}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1772368990
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12383,6 +12771,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.075, y: 0, z: 2.380001}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 18
@@ -12434,7 +12823,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1679285422}
   - {fileID: 1493535422}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1801984106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12497,6 +12888,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: 3.0800018}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 20
@@ -12552,7 +12944,9 @@ MonoBehaviour:
   - {fileID: 1198535361}
   - {fileID: 1407615454}
   - {fileID: 315228277}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1840974157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12615,6 +13009,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.03, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 8
@@ -12670,7 +13065,9 @@ MonoBehaviour:
   - {fileID: 68243541}
   - {fileID: 615632112}
   - {fileID: 1647346251}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1846697727
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12733,6 +13130,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.802, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 13
@@ -12767,7 +13165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b899c121a7f83fa41b2ca384ec63f281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObjects: []
+  pooledObjects:
+  - {fileID: 0}
   objectToPool: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
   amountToPool: 100
 --- !u!4 &1871907974
@@ -12780,6 +13179,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 931803732}
   - {fileID: 499868429}
@@ -12837,6 +13237,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 373649324}
   m_RootOrder: 0
@@ -12950,7 +13351,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 2086776169}
   - {fileID: 976721686}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1943540530
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13013,6 +13416,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0.05, y: 0, z: -3.331}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 2
@@ -13064,7 +13468,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1770802805}
   - {fileID: 623659241}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &1994154030
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13127,6 +13533,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.716, y: 0, z: 3.346}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 21
@@ -13160,6 +13567,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 4, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 4
@@ -13231,7 +13639,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 915527487}
   - {fileID: 900717256}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &1996455063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13274,6 +13684,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.696, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 17
@@ -13347,7 +13758,9 @@ MonoBehaviour:
   - {fileID: 1051540523}
   - {fileID: 2071860741}
   - {fileID: 1302447772}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &2003989134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13389,6 +13802,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 373649324}
   m_RootOrder: 1
@@ -13487,7 +13901,9 @@ MonoBehaviour:
   - {fileID: 1488553727}
   - {fileID: 391161592}
   - {fileID: 1941363}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &2041472231
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13550,6 +13966,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.03, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 822164468}
   m_RootOrder: 8
@@ -13584,6 +14001,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.964, y: 1, z: 0.6040001}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1157334758}
   - {fileID: 1534338618}
@@ -13721,8 +14139,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce99285800179141af4aab959f6b34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  crossroads: []
   player: {fileID: 584651844}
+  scarabParticlePrefab: {fileID: 0}
+  scarabs: []
   goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
   stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
@@ -13733,6 +14152,7 @@ MonoBehaviour:
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
   resetSound: {fileID: 8300000, guid: ed2c9df4b79a0334da44621ae014fe84, type: 3}
   clickSound: {fileID: 8300000, guid: de00e38f24d836945a294afa4e58c61f, type: 3}
+  audioSource: {fileID: 0}
 --- !u!64 &2043832779
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13765,6 +14185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064016924}
   - component: {fileID: 2064016923}
+  - component: {fileID: 2064016925}
   m_Layer: 0
   m_Name: Point Light (2)
   m_TagString: Untagged
@@ -13844,10 +14265,31 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.83, y: 5.014, z: 3.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2064016925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064016922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &2069885195
 GameObject:
   m_ObjectHideFlags: 0
@@ -13877,6 +14319,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 9.64, y: 0.1, z: 9.64}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1871907974}
   m_RootOrder: 6
@@ -13973,6 +14416,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -0.7, y: 0, z: 0.133}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 779525799}
   m_RootOrder: 14
@@ -14048,7 +14492,9 @@ MonoBehaviour:
   - {fileID: 365129011}
   - {fileID: 1302447772}
   - {fileID: 724445007}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!65 &2071860745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14113,7 +14559,9 @@ MonoBehaviour:
   - {fileID: 1254922022}
   - {fileID: 1403252254}
   - {fileID: 822449487}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &2079101627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14176,6 +14624,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -2.389, y: 0, z: 2.3600008}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 22
@@ -14231,7 +14680,9 @@ MonoBehaviour:
   - {fileID: 1846697724}
   - {fileID: 1943540527}
   - {fileID: 839113789}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &2086776172
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14294,6 +14745,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 1.115, y: 0, z: -1.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 6
@@ -14345,7 +14797,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1591978262}
   - {fileID: 71396257}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &2094405551
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14408,6 +14862,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.32, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 986474528}
   m_RootOrder: 0
@@ -14459,7 +14914,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1840974154}
   - {fileID: 1198535361}
-  currentPossibleNeightbours: []
+  scarabParticlePrefab: {fileID: 0}
+  spriteRenderer: {fileID: 0}
+  particleSystem: {fileID: 0}
 --- !u!212 &2100846056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14522,6 +14979,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -1.817, y: 0, z: -2.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2043832776}
   m_RootOrder: 3
