@@ -54,6 +54,9 @@ public class GraphPuzzle : MonoBehaviour
         {
             scarabs[i].SpriteRenderer.color = stoneScarabColor;
         }
+        scarabParticlePool = new ObjectPool<GameObject>(createFunc: () => Instantiate(scarabParticlePrefab),
+    actionOnGet: (obj) => obj.SetActive(true), actionOnRelease: (obj) => obj.SetActive(false),
+    actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
     }
 
     public void ScarabIsChosen(Scarab scarab)
@@ -72,10 +75,6 @@ public class GraphPuzzle : MonoBehaviour
         }
         else
         {
-            scarabParticlePool = new ObjectPool<GameObject>(createFunc: () => Instantiate(scarabParticlePrefab), 
-                actionOnGet: (obj) => obj.SetActive(true), actionOnRelease: (obj) => obj.SetActive(false), 
-                actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
-
             scarabParticlePrefab = scarabParticlePool.Get();
             if (scarabParticlePrefab != null)
             {
