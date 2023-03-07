@@ -15,11 +15,11 @@ public class GraphPuzzle : MonoBehaviour
 
     [Header("Scarabs Sprite")]
     [SerializeField] 
-    private Sprite goldenScarab;
+    private Color goldenScarabColor;
     [SerializeField] 
-    private Sprite silverScarab;
+    private Color silverScarabColor;
     [SerializeField] 
-    private Sprite stoneScarab;
+    private Color stoneScarabColor;
 
     [Header("Graphic effects")]
     [SerializeField] 
@@ -50,7 +50,7 @@ public class GraphPuzzle : MonoBehaviour
         winnerText.enabled = false;
         for (int i = 0; i < scarabs.Count; i++)
         {
-            scarabs[i].SpriteRenderer.sprite = stoneScarab;
+            scarabs[i].SpriteRenderer.color = stoneScarabColor;
         }
     }
 
@@ -65,7 +65,7 @@ public class GraphPuzzle : MonoBehaviour
             Scarab prevScarab = prevNode;
             currentScarab.RemoveNeightbour(prevNode.gameObject);
             prevScarab.RemoveNeightbour(scarab.gameObject);
-            prevScarab.ChangeScarab(silverScarab);
+            prevScarab.ChangeScarab(silverScarabColor);
             prevScarab.Explode(Color.blue);
         }
         else
@@ -83,13 +83,13 @@ public class GraphPuzzle : MonoBehaviour
             scarabParticlePrefab.GetComponent<ParticleSystem>().Play();
         }
 
-        currentScarab.ChangeScarab(goldenScarab, Color.yellow);
+        currentScarab.ChangeScarab(goldenScarabColor, Color.yellow);
         WriteConnection(scarab.gameObject);
         DisableAllNodesColliders();
 
         if (currentScarab.CurrentPossibleNeightbours.Count == 0)
         {
-            currentScarab.ChangeScarab(silverScarab);
+            currentScarab.ChangeScarab(silverScarabColor);
             WinOrLose();
         }
         else
@@ -165,7 +165,7 @@ public class GraphPuzzle : MonoBehaviour
             {
                 currentScarab.Explode(Color.magenta);
             }
-            currentScarab.ChangeScarab(stoneScarab);
+            currentScarab.ChangeScarab(stoneScarabColor);
             currentScarab.CopyPossibleNeightbourToCurrentNeightbour();
             scarabs[i].gameObject.GetComponent<Collider>().enabled = true;
         }

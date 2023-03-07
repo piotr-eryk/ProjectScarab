@@ -6,8 +6,6 @@ public class LineManager : MonoBehaviour
 {
     [SerializeField]
     private LineRenderer lineRenderer;
-    [SerializeField]
-    private LayerMask lineRendererLayer;
 
     private List<Transform> points = new();
 
@@ -29,7 +27,6 @@ public class LineManager : MonoBehaviour
             for (int i = 0; i < points.Count; i++)
             {
                 lineRenderer.SetPosition(i, points[i].position);
-                lineRenderer.sortingLayerName = lineRendererLayer.ToString();
             }
         }
     }

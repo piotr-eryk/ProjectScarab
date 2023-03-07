@@ -969,7 +969,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &83446459
 Transform:
   m_ObjectHideFlags: 0
@@ -1376,9 +1376,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1746238917}
   - {fileID: 2071860741}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 173120194}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &173120196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1641,9 +1641,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 900717256}
   - {fileID: 999936568}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 211535849}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &211535851
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2002,9 +2002,9 @@ MonoBehaviour:
   - {fileID: 988251138}
   - {fileID: 1146838681}
   - {fileID: 1302447772}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 365129013}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &365129015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2582,9 +2582,9 @@ MonoBehaviour:
   - {fileID: 999936568}
   - {fileID: 1746238917}
   - {fileID: 1531323819}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 439251819}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &439251821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3891,9 +3891,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1746238917}
   - {fileID: 2071860741}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 724445009}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &724445011
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4218,7 +4218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 584651844}
-  scarabParticlePrefab: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
   scarabs:
   - {fileID: 915527490}
   - {fileID: 211535850}
@@ -4245,9 +4245,9 @@ MonoBehaviour:
   - {fileID: 1302447775}
   - {fileID: 1145803600}
   - {fileID: 724445010}
-  goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
+  goldenScarabColor: {r: 0, g: 0.92708635, b: 1, a: 1}
+  silverScarabColor: {r: 0.9573288, g: 1, b: 0, a: 1}
+  stoneScarabColor: {r: 1, g: 0, b: 0, a: 1}
   lineManagerScript: {fileID: 1085429934}
   winnerText: {fileID: 1922362626}
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
@@ -4693,9 +4693,9 @@ MonoBehaviour:
   - {fileID: 1051540523}
   - {fileID: 2003989130}
   - {fileID: 2071860741}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 810852712}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &810852714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4880,9 +4880,9 @@ MonoBehaviour:
   player: {fileID: 584651844}
   scarabParticlePrefab: {fileID: 0}
   scarabs: []
-  goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
+  goldenScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 185639610}
   winnerText: {fileID: 1922362626}
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
@@ -5490,9 +5490,9 @@ MonoBehaviour:
   - {fileID: 1996455059}
   - {fileID: 999936568}
   - {fileID: 439251817}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 900717258}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &900717260
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5607,9 +5607,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1996455059}
   - {fileID: 900717256}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 915527489}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &915527491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5724,9 +5724,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 999936568}
   - {fileID: 810852710}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 920894290}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &920894292
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6383,9 +6383,9 @@ MonoBehaviour:
   player: {fileID: 584651844}
   scarabParticlePrefab: {fileID: 0}
   scarabs: []
-  goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
+  goldenScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 1363693721}
   winnerText: {fileID: 1922362626}
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
@@ -6517,9 +6517,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 365129011}
   - {fileID: 1284275994}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 988251140}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &988251142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6755,9 +6755,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1357478856}
   - {fileID: 920894288}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 999936570}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &999936572
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6991,9 +6991,9 @@ MonoBehaviour:
   - {fileID: 810852710}
   - {fileID: 1297849564}
   - {fileID: 2003989130}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1051540525}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1051540527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7434,8 +7434,8 @@ LineRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -601065307
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
@@ -8082,9 +8082,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1694597129}
   - {fileID: 1302447772}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1145803599}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1145803601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8199,9 +8199,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 365129011}
   - {fileID: 1302447772}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1146838683}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1146838685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8904,9 +8904,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1531323819}
   - {fileID: 988251138}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1284275996}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1284275998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9021,9 +9021,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 810852710}
   - {fileID: 1051540523}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1297849566}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1297849568
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9259,9 +9259,9 @@ MonoBehaviour:
   - {fileID: 1694597129}
   - {fileID: 1146838681}
   - {fileID: 1145803597}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1302447774}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1302447776
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9376,9 +9376,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1284275994}
   - {fileID: 1531323819}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1338256591}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1338256593
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9610,9 +9610,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 999936568}
   - {fileID: 810852710}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1357478858}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1357478860
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10260,7 +10260,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1432272489
 Transform:
   m_ObjectHideFlags: 0
@@ -10877,9 +10877,9 @@ MonoBehaviour:
   - {fileID: 1746238917}
   - {fileID: 1338256589}
   - {fileID: 1284275994}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1531323821}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1531323823
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12198,9 +12198,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 1302447772}
   - {fileID: 1145803597}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1694597131}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1694597133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12230,7 +12230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1734657795
 Transform:
   m_ObjectHideFlags: 0
@@ -12405,9 +12405,9 @@ MonoBehaviour:
   - {fileID: 724445007}
   - {fileID: 1284275994}
   - {fileID: 1531323819}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1746238919}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1746238921
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13639,9 +13639,9 @@ MonoBehaviour:
   possibleNeightbours:
   - {fileID: 915527487}
   - {fileID: 900717256}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 1996455061}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &1996455063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13758,9 +13758,9 @@ MonoBehaviour:
   - {fileID: 1051540523}
   - {fileID: 2071860741}
   - {fileID: 1302447772}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 2003989132}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &2003989134
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14142,9 +14142,9 @@ MonoBehaviour:
   player: {fileID: 584651844}
   scarabParticlePrefab: {fileID: 0}
   scarabs: []
-  goldenScarab: {fileID: -3256550070644474676, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  silverScarab: {fileID: 3162544878287229053, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
-  stoneScarab: {fileID: -2869631701027221602, guid: 29e744a2f6509bf4299544da0333e596, type: 3}
+  goldenScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
+  stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 1659832627}
   winnerText: {fileID: 1922362626}
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
@@ -14492,9 +14492,9 @@ MonoBehaviour:
   - {fileID: 365129011}
   - {fileID: 1302447772}
   - {fileID: 724445007}
-  scarabParticlePrefab: {fileID: 0}
-  spriteRenderer: {fileID: 0}
-  particleSystem: {fileID: 0}
+  scarabParticlePrefab: {fileID: 8144475383090561388, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
+  spriteRenderer: {fileID: 2071860743}
+  particleSystem: {fileID: 4598057504212732315, guid: dcdadde25f6dd164ab02bf90eb9cd18b, type: 3}
 --- !u!65 &2071860745
 BoxCollider:
   m_ObjectHideFlags: 0

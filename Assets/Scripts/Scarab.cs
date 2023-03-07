@@ -14,7 +14,7 @@ public class Scarab : MonoBehaviour
     [SerializeField]
     private new ParticleSystem particleSystem;
 
-    private List<GameObject> currentPossibleNeightbours;
+    private List<GameObject> currentPossibleNeightbours = new();
     private ObjectPool<GameObject> scarabParticlePool;
 
     public List<GameObject> CurrentPossibleNeightbours => currentPossibleNeightbours;
@@ -30,9 +30,9 @@ public class Scarab : MonoBehaviour
     actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
     }
 
-    public void ChangeScarab(Sprite scarab, Color? explosionColor = null)
+    public void ChangeScarab(Color scarabColor, Color? explosionColor = null)
     {
-        spriteRenderer.sprite = scarab;
+        spriteRenderer.color = scarabColor;
 
         if (explosionColor != null)
         {
