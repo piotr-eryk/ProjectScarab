@@ -9,38 +9,43 @@ An example code would be a function called every time the player selects a node 
 ### Main Function
 
  ```
-    public void ScarabIsChosen(GameObject scarab)
+    public void ScarabIsChosen(Scarab scarab)
     {
-        graphSound.PlayOneShot(clickSound, 0.2f);
+        audioSource.PlayOneShot(clickSound, 0.2f);
 
-        currentScarab = scarab.GetComponent<Scarab>();
+        currentScarab = scarab;
 
-        if (prevNode) // If prevNode exist so if player chose second node
+        if (prevNode)
         {
-            Scarab prevScarab = prevNode.GetComponent<Scarab>();
-            currentScarab.RemoveNeightbour(prevNode);
-            prevScarab.RemoveNeightbour(scarab);
-            prevScarab.ChangeScarab(silverScarab);
+            Scarab prevScarab = prevNode;
+            currentScarab.RemoveNeightbour(prevNode.gameObject);
+            prevScarab.RemoveNeightbour(scarab.gameObject);
+            prevScarab.ChangeScarab(silverScarabColor);
             prevScarab.Explode(Color.blue);
         }
-        else //do this only with first chosen scarab
+        else
         {
-            particle = Instantiate(scarabTrailContainer, scarab.transform.position, Quaternion.identity).GetComponentInChildren<ParticleSystem>();
-            particle.Play();
+            scarabParticlePrefab = scarabParticlePool.Get();
+            if (scarabParticlePrefab != null)
+            {
+                scarabParticlePrefab.transform.position = scarab.transform.position;
+                scarabParticlePrefab.SetActive(true);
+            }
+            scarabParticlePrefab.GetComponent<ParticleSystem>().Play();
         }
 
-        currentScarab.ChangeScarab(goldenScarab, Color.yellow);
-        WriteConnection(scarab);
+        currentScarab.ChangeScarab(goldenScarabColor, Color.yellow);
+        WriteConnection(scarab.gameObject);
         DisableAllNodesColliders();
 
-        if (currentScarab.currentPossibleNeightbours.Count == 0)
+        if (currentScarab.CurrentPossibleNeightbours.Count == 0)
         {
-            currentScarab.ChangeScarab(silverScarab);
+            currentScarab.ChangeScarab(silverScarabColor);
             WinOrLose();
         }
         else
         {
-            foreach (GameObject scarabNode in currentScarab.currentPossibleNeightbours)
+            foreach (GameObject scarabNode in currentScarab.CurrentPossibleNeightbours)
             {
                 scarabNode.GetComponent<Collider>().enabled = true;
             }
@@ -56,8 +61,8 @@ An example code called by the above code would be whether the player with no mov
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            currentScarab = crossroads[i].GetComponent<Scarab>();
-            if (currentScarab.currentPossibleNeightbours.Count != 0)
+            currentScarab = scarabs[i];
+            if (currentScarab.CurrentPossibleNeightbours.Count != 0)
             {
                 StartCoroutine(Lose());
                 return;
@@ -70,7 +75,7 @@ An example code called by the above code would be whether the player with no mov
 And the Lose coroutine...
 
 ```
-    IEnumerator Lose()
+    private IEnumerator Lose()
     {
         yield return new WaitForSeconds(1f);
         ResetGraph();
@@ -84,20 +89,20 @@ And the Lose coroutine...
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            currentScarab = crossroads[i].GetComponent<Scarab>();
+            currentScarab = scarabs[i];
 
-            if (currentScarab.currentPossibleNeightbours.Count != currentScarab.possibleNeightbours.Count)
+            if (currentScarab.CurrentPossibleNeightbours.Count != currentScarab.PossibleNeightbours.Count)
             {
                 currentScarab.Explode(Color.magenta);
             }
-            currentScarab.ChangeScarab(stoneScarab);
+            currentScarab.ChangeScarab(stoneScarabColor);
             currentScarab.CopyPossibleNeightbourToCurrentNeightbour();
-            crossroads[i].GetComponent<Collider>().enabled = true;
-
+            scarabs[i].gameObject.GetComponent<Collider>().enabled = true;
         }
+
         lineManagerScript.ResetAllPoints();
-        graphSound.PlayOneShot(resetSound, 1f);
-        Destroy(particle.transform.root.gameObject);
+        audioSource.PlayOneShot(resetSound, 1f);
+        scarabParticlePool.Release(scarabParticlePrefab);
         prevNode = null;
     }
  ```   
