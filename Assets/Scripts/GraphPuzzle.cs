@@ -7,11 +7,11 @@ using UnityEngine.UI;
 public class GraphPuzzle : MonoBehaviour
 {
     [SerializeField] 
-    GameObject player;
+    private GameObject player;
     [SerializeField]
-    GameObject scarabParticlePrefab;
+    private GameObject scarabParticlePrefab;
     [SerializeField]
-    List<Scarab> scarabs;
+    private List<Scarab> scarabs;
 
     [Header("Scarabs Sprite")]
     [SerializeField] 
@@ -25,7 +25,9 @@ public class GraphPuzzle : MonoBehaviour
     [SerializeField] 
     private LineManager lineManagerScript;
     [SerializeField] 
-    private Text winnerText;
+    private Text winnerTextObject;
+    [SerializeField]
+    private string winnerText;
     [SerializeField] 
     private ParticleSystem scarabTrail;
     [SerializeField] 
@@ -47,7 +49,7 @@ public class GraphPuzzle : MonoBehaviour
 
     private void Start()
     {
-        winnerText.enabled = false;
+        winnerTextObject.enabled = false;
         for (int i = 0; i < scarabs.Count; i++)
         {
             scarabs[i].SpriteRenderer.color = stoneScarabColor;
@@ -128,18 +130,19 @@ public class GraphPuzzle : MonoBehaviour
         }
         StartCoroutine(Win());
     }
+
     private IEnumerator Win()
     {
         audioSource.PlayOneShot(gongSound, 0.5f);
-        winnerText.enabled = true;
-        winnerText.text = "Congratulation! You won!";
+        winnerTextObject.enabled = true;
+        winnerTextObject.text = winnerText;
 
         yield return new WaitForSeconds(0.1f);
         scarabParticlePrefab.transform.position = player.transform.position;
 
         yield return new WaitForSeconds(2f);
         scarabParticlePool.Release(scarabParticlePrefab);
-        winnerText.enabled = false;
+        winnerTextObject.enabled = false;
     }
 
     private IEnumerator Lose()
