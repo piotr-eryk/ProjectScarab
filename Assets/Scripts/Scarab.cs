@@ -54,11 +54,8 @@ public class Scarab : MonoBehaviour
     public void Explode(Color explosionColor)
     {
         scarabParticlePrefab = scarabParticlePool.Get();
-        if (scarabParticlePrefab != null)
-        {
-            scarabParticlePrefab.transform.position = gameObject.transform.position;
-            scarabParticlePrefab.SetActive(true);
-        }
+        scarabParticlePrefab.transform.position = gameObject.transform.position;
+        scarabParticlePrefab.SetActive(true);
         scarabParticlePrefab.GetComponent<ParticleSystem>().Play();
 
         ParticleSystem.MainModule main = particleSystem.main;
