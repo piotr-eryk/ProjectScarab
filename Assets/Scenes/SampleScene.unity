@@ -1423,9 +1423,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 0}
-  lineRendererLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!120 &185639611
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -4249,7 +4246,8 @@ MonoBehaviour:
   silverScarabColor: {r: 0.9573288, g: 1, b: 0, a: 1}
   stoneScarabColor: {r: 1, g: 0, b: 0, a: 1}
   lineManagerScript: {fileID: 1085429934}
-  winnerText: {fileID: 1922362626}
+  winnerTextObject: {fileID: 1922362626}
+  winnerText: Gratulation! You won!
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
   scarabTrailContainer: {fileID: 5302063776465140359, guid: d277883abbd1b204dacd3f80835444ea, type: 3}
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
@@ -4884,7 +4882,8 @@ MonoBehaviour:
   silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
   stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 185639610}
-  winnerText: {fileID: 1922362626}
+  winnerTextObject: {fileID: 0}
+  winnerText: 
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
   scarabTrailContainer: {fileID: 5302063776465140359, guid: d277883abbd1b204dacd3f80835444ea, type: 3}
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
@@ -6387,7 +6386,8 @@ MonoBehaviour:
   silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
   stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 1363693721}
-  winnerText: {fileID: 1922362626}
+  winnerTextObject: {fileID: 0}
+  winnerText: 
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
   scarabTrailContainer: {fileID: 5302063776465140359, guid: d277883abbd1b204dacd3f80835444ea, type: 3}
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
@@ -7393,9 +7393,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 1085429935}
-  lineRendererLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!120 &1085429935
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -9657,9 +9654,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 0}
-  lineRendererLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!120 &1363693722
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -11626,9 +11620,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 0}
-  lineRendererLayer:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!120 &1659832628
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -14146,7 +14137,8 @@ MonoBehaviour:
   silverScarabColor: {r: 0, g: 0, b: 0, a: 0}
   stoneScarabColor: {r: 0, g: 0, b: 0, a: 0}
   lineManagerScript: {fileID: 1659832627}
-  winnerText: {fileID: 1922362626}
+  winnerTextObject: {fileID: 0}
+  winnerText: 
   scarabTrail: {fileID: 1704315022054176244, guid: c4e08c6ae1918e24e974cf512462674c, type: 3}
   scarabTrailContainer: {fileID: 5302063776465140359, guid: d277883abbd1b204dacd3f80835444ea, type: 3}
   gongSound: {fileID: 8300000, guid: 64e883032d0b09848b8df0fb020d16c5, type: 3}
