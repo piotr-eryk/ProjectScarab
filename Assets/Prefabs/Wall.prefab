@@ -112,6 +112,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c00f17a2d49ea8a4498f36a7325ad506, type: 2}
     - target: {fileID: 919132149155446097, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
       propertyPath: m_Name
       value: wall0001
@@ -190,6 +194,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c00f17a2d49ea8a4498f36a7325ad506, type: 2}
     - target: {fileID: 919132149155446097, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
       propertyPath: m_Name
       value: wall0001 (3)
@@ -264,6 +272,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c00f17a2d49ea8a4498f36a7325ad506, type: 2}
     - target: {fileID: 919132149155446097, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
       propertyPath: m_Name
       value: wall0001 (2)
@@ -338,6 +350,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c00f17a2d49ea8a4498f36a7325ad506, type: 2}
     - target: {fileID: 919132149155446097, guid: 24171825ea82aba40a7a98929d3cbec6, type: 3}
       propertyPath: m_Name
       value: wall0001 (1)

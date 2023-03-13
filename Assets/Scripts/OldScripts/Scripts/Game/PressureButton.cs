@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PressureButton : Basebutton
 {
-    //[SerializeField] private float pressedDuration = 1f;
+    [SerializeField] 
+    private float pressedDuration = 1f;
 
     private float pressedTimer;
 
@@ -35,12 +36,12 @@ public class PressureButton : Basebutton
 
     void OnTriggerStay(Collider otherCollider)
     {
-        //if (otherCollider.GetComponent<Player>() != null || otherCollider.GetComponent<GrabbableObject>() != null)
-        //{
-        //    pressedTimer = pressedDuration;
-        //}
+        if (otherCollider.GetComponent<Player>() != null || otherCollider.GetComponent<GrabbableObject>() != null)
+        {
+            pressedTimer = pressedDuration;
+        }
     }
-
+                  
     protected override void OnPress ()
     {
         model.GetComponentInChildren<Renderer>().material.SetColor("_Color", Color.green);

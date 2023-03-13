@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GameSceneController : MonoBehaviour
 {
     [Header("Game")]
-    //[SerializeField] private Player player;
+    [SerializeField] private Player player;
 
     [Header("UI")]
     [SerializeField] 
@@ -24,7 +24,7 @@ public class GameSceneController : MonoBehaviour
     void Start()
     {
         endedGameText.gameObject.SetActive(false);
-        //player.OnCollectOrb = OnCollectOrb;
+        player.OnCollectOrb = OnCollectOrb;
     }
 
     void Update()
@@ -52,6 +52,6 @@ public class GameSceneController : MonoBehaviour
         timeText.gameObject.SetActive(false);
         endedGameText.text = "You won!\nYour time: " + Mathf.FloorToInt(gameTimer) + "s";
 
-        LevelManager.Instance.TotalTime += Math.Round(gameTimer, 2);
+        //LevelManager.Instance.TotalTime += Math.Round(gameTimer, 2);
     }
 }

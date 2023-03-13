@@ -134,7 +134,7 @@ MonoBehaviour:
   model: {fileID: 6500036245525857669}
   pressureHeight: -0.1
   pressedSpeed: 3
-  pressed: 0
+  pressedDuration: 1
 --- !u!65 &6500036244560069984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -146,8 +146,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.42, y: 1.11, z: 2.42}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.42, y: 1.4840555, z: 2.42}
+  m_Center: {x: 0, y: 0.18702766, z: 0}
 --- !u!1 &6500036245183464973
 GameObject:
   m_ObjectHideFlags: 0
