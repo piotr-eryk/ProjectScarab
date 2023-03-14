@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PressureButton : Basebutton
+public class PressureButton : BaseButton
 {
     [SerializeField] 
     private float pressedDuration = 1f;
@@ -46,12 +46,12 @@ public class PressureButton : Basebutton
     {
         model.GetComponentInChildren<Renderer>().material.SetColor("_Color", Color.green);
 
-        targetObject.OnTrigger();
+        triggableObject.OnTrigger();
     }
     private void OnUnpress()
     {
         model.GetComponentInChildren<Renderer>().material.SetColor("_Color", Color.red);
 
-        targetObject.OnUnTrigger();
+        triggableObject.OnUnTrigger();
     }
 }

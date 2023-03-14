@@ -4,7 +4,7 @@ using System.Diagnostics;
 using UnityEngine;
 
 
-public class FloorButton : Basebutton
+public class FloorButton : BaseButton
 {
     void OnTriggerStay(Collider otherCollider)
     {

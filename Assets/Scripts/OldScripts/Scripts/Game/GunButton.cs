@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class GunButton : Basebutton
+public class GunButton : BaseButton
 {
     void OnTriggerEnter(Collider otherCollider)
     {

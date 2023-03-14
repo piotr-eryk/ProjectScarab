@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 
-public class Basebutton : MonoBehaviour
+public class BaseButton : MonoBehaviour
 {
     [SerializeField]
-    protected TriggableObject targetObject;
+    protected TriggableObject triggableObject;
     [SerializeField]
     protected GameObject model;
     [SerializeField]
@@ -39,6 +39,6 @@ public class Basebutton : MonoBehaviour
 
     protected virtual void OnPress()
     {
-        targetObject.OnTrigger();
+        triggableObject.OnTrigger();
     }
 }
