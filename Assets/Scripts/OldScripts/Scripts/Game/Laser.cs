@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Scripting;
 
 [RequireComponent(typeof(LineRenderer))]
 public class Laser : MonoBehaviour
@@ -9,7 +10,7 @@ public class Laser : MonoBehaviour
     [SerializeField] 
     private GunButton gunButtonScript;
     [SerializeField] 
-    private BreakableObject targetObject;
+    private GameObject targetObject;
 
     private int reflections = 5;
     private LineRenderer lineRenderer;
@@ -60,6 +61,6 @@ public class Laser : MonoBehaviour
 
     public void OnTouch()
     {
-        targetObject.OnTouch();
+        targetObject.GetComponent<IBreakable>()?.OnTouch();
     }
 }

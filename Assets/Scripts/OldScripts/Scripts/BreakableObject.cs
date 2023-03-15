@@ -2,5 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Box : GrabbableObject
-{}
+public interface IBreakable
+{
+    void OnTouch();
+}

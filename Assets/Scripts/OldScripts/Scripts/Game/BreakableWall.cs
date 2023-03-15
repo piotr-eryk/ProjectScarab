@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class BreakableWall : BreakableObject
+public class BreakableWall : MonoBehaviour, IBreakable
 {
     [SerializeField] 
     private GameObject model;
@@ -22,10 +22,9 @@ public class BreakableWall : BreakableObject
             Destroy(model);
         }
     }
-    public override void OnTouch()
+    public void OnTouch()
     {
         t += Time.deltaTime;
-        base.OnTouch();
     }
 
     private void Explode()

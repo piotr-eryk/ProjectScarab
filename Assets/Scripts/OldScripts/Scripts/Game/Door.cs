@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Door : TriggableObject
+public class Door : MonoBehaviour, ITriggable
 {
     [SerializeField] 
     private GameObject doorTop;
@@ -30,18 +30,14 @@ public class Door : TriggableObject
         doorBot.transform.localPosition = Vector3.Lerp(doorBot.transform.localPosition, targetPositionBot, Time.deltaTime * speed);
     }
 
-    public override void OnTrigger()
+    public void OnTrigger()
     {
-        base.OnTrigger();
-
         targetPositionTop = new Vector3(0, openedHeightTop, 0);
         targetPositionBot = new Vector3(0, openedHeightBot, 0);
     }
 
-    public override void OnUnTrigger()
+    public void OnUnTrigger()
     {
-        base.OnUnTrigger();
-
         targetPositionTop = Vector3.zero;
         targetPositionBot = Vector3.zero;
     }

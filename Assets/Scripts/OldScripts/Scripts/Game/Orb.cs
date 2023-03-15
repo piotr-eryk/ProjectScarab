@@ -5,12 +5,12 @@ using UnityEngine;
 public class Orb : MonoBehaviour
 {
     [SerializeField] 
-    private float speed = 100f;
+    private float rotatingSpeed = 100f;
 
     void Update()
     {
-        transform.RotateAround(transform.position, Vector3.right, speed * Time.deltaTime);
-        transform.RotateAround(transform.position, Vector3.up, speed * Time.deltaTime);
-        transform.RotateAround(transform.position, Vector3.forward, speed * Time.deltaTime);
+        transform.RotateAround(transform.position, Vector3.right, rotatingSpeed * Time.deltaTime);
+        transform.RotateAround(transform.position, Vector3.up, rotatingSpeed * Time.deltaTime);
+        transform.RotateAround(transform.position, Vector3.forward, rotatingSpeed * Time.deltaTime);
     }
 }

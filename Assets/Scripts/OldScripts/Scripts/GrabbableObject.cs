@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GrabbableObject : MonoBehaviour
+public class GrabbableObject : MonoBehaviour, IGrabbable
 {
     private bool isGrabbed = false;
 
     [Header("Grabbable Objects")]
     [SerializeField]
     private float grabbingDistance = 2f;
-    [SerializeField]
-    private float throwingForce = 4f;
     [SerializeField]
     private Player player;
 

@@ -10,11 +10,8 @@ public class Player : MonoBehaviour
 
     private GrabbableObject grabbableObject;
 
-    [Header("Grabbable Objects")]
     [SerializeField]
     private float grabbingDistance = 2f;
-    [SerializeField]
-    private float throwingForce = 4f;
     [SerializeField]
     private Camera playerCamera;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Mirror : TriggableObject
+public class Mirror : MonoBehaviour, ITriggable
 {
     private Vector3 targetAngle;
     private Vector3 currentAngle;
@@ -27,17 +27,13 @@ public class Mirror : TriggableObject
         transform.eulerAngles = currentAngle;
     }
 
-    public override void OnTrigger()
+    public void OnTrigger()
     {
-        base.OnTrigger();
-
         targetAngle = targetRotate;
     }
 
-    public override void OnUnTrigger()
+    public void OnUnTrigger()
     {
-        base.OnUnTrigger();
-
         targetAngle = Vector3.zero;
     }
 }

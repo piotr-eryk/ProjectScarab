@@ -1,12 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEngine.Rendering.DebugUI;
 
 public class BaseButton : MonoBehaviour
 {
     [SerializeField]
-    protected TriggableObject triggableObject;
+    protected GameObject triggableObject;
     [SerializeField]
     protected GameObject model;
     [SerializeField]
@@ -39,6 +38,6 @@ public class BaseButton : MonoBehaviour
 
     protected virtual void OnPress()
     {
-        triggableObject.OnTrigger();
+        triggableObject.GetComponent<ITriggable>()?.OnTrigger();
     }
 }

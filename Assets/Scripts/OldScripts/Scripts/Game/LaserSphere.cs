@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 
-public class LaserSphere : TriggableObject
+public class LaserSphere : MonoBehaviour, ITriggable
 {
     [SerializeField] 
     private GameObject model;
@@ -23,15 +23,13 @@ public class LaserSphere : TriggableObject
         model.transform.Rotate(0, 0, actualRotateVelocity, Space.Self);
     }
 
-    public override void OnTrigger()
+    public void OnTrigger()
     {
-        base.OnTrigger();
         actualRotateVelocity = 0;
     }
 
-    public override void OnUnTrigger()
+    public void OnUnTrigger()
     {
-        base.OnUnTrigger();
         if (rotateRight == true)
         {
             actualRotateVelocity = 1f * rotateVelocity;

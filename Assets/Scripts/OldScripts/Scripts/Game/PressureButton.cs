@@ -46,12 +46,12 @@ public class PressureButton : BaseButton
     {
         model.GetComponentInChildren<Renderer>().material.SetColor("_Color", Color.green);
 
-        triggableObject.OnTrigger();
+        triggableObject.GetComponent<ITriggable>()?.OnTrigger();
     }
     private void OnUnpress()
     {
         model.GetComponentInChildren<Renderer>().material.SetColor("_Color", Color.red);
 
-        triggableObject.OnUnTrigger();
+        triggableObject.GetComponent<ITriggable>()?.OnUnTrigger();
     }
 }

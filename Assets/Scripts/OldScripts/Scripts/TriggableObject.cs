@@ -2,5 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Portal : MonoBehaviour
-{ }
+public interface ITriggable
+{
+    void OnTrigger();
+    void OnUnTrigger();
+}
