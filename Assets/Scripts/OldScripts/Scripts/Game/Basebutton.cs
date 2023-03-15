@@ -26,6 +26,7 @@ public class BaseButton : MonoBehaviour
     {
         targetPosition = Vector3.zero;
     }
+
     protected virtual void Update()
     {
         if (isPressed == true)
@@ -33,7 +34,7 @@ public class BaseButton : MonoBehaviour
             targetPosition = new Vector3(0, 0, pressureHeight);
             OnPress();
         }
-        model.transform.localPosition = Vector3.Lerp(model.transform.localPosition, targetPosition, Time.deltaTime * pressedSpeed); //if button is pressed move attach model
+        model.transform.localPosition = Vector3.Lerp(model.transform.localPosition, targetPosition, Time.deltaTime * pressedSpeed);
     }
 
     protected virtual void OnPress()

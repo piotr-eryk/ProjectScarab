@@ -11,13 +11,6 @@ public class Cannon : MonoBehaviour
     [SerializeField] 
     private ShootFromGun shootFromGunScript;
 
-    private float scriptDelay;
-
-    void Awake()
-    {
-        scriptDelay = shootFromGunScript.ShootDelay;
-    }
-
     IEnumerator Start()
     {
         while (true)
@@ -38,7 +31,7 @@ public class Cannon : MonoBehaviour
 
     private IEnumerator LightPanel()
     {
-        WaitForSeconds wait = new WaitForSeconds(scriptDelay / panels.Count);
+        WaitForSeconds wait = new WaitForSeconds(shootFromGunScript.ShootDelay / panels.Count);
         foreach (GameObject panel in panels)
         {
             yield return wait;

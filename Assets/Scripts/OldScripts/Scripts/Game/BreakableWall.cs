@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
 using UnityEngine.UIElements;
 
 public class BreakableWall : MonoBehaviour, IBreakable
@@ -10,9 +11,18 @@ public class BreakableWall : MonoBehaviour, IBreakable
     [SerializeField] 
     private float destroyDuration = 3f;
     [SerializeField] 
-    private GameObject particle;
+    private GameObject explodeParticle;
+
+    private ObjectPool<GameObject> explodeParticlePool;
 
     private float t = 0f;
+
+    private void Awake()
+    {
+        explodeParticlePool = new ObjectPool<GameObject>(createFunc: () => Instantiate(explodeParticle),
+actionOnGet: (obj) => obj.SetActive(true), actionOnRelease: (obj) => obj.SetActive(false),
+actionOnDestroy: (obj) => Destroy(obj), collectionCheck: false, defaultCapacity: 20, maxSize: 50);
+    }
 
     void Update()
     {
@@ -22,6 +32,7 @@ public class BreakableWall : MonoBehaviour, IBreakable
             Destroy(model);
         }
     }
+
     public void OnTouch()
     {
         t += Time.deltaTime;
@@ -29,9 +40,9 @@ public class BreakableWall : MonoBehaviour, IBreakable
 
     private void Explode()
     {
-        GameObject explosion = Instantiate(particle, model.transform.position, Quaternion.identity);
-        explosion.GetComponent<ParticleSystem>().Play();
-        Destroy(explosion, 2f);
+        explodeParticle = explodeParticlePool.Get();
+        explodeParticle.GetComponent<ParticleSystem>().Play();
+        //        explodeParticlePool.Release(explodeParticle);
     }
 
 }

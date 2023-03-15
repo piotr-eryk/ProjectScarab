@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GrabbableObject : MonoBehaviour, IGrabbable
+public class GrabbableObject : MonoBehaviour
 {
     private bool isGrabbed = false;
 
